@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		#div_tong{
+			width: 100%;
+			height: 800px;
+			background: pink;
+		}
+		#div_tren{
+			width: 100%;
+			height: 20%;
+			background: red;
+		}
+		#div_tren > .trai{
+			width: 50%;
+			height: 100%;
+			background: yellow;
+			float: left;
+		}
+		#div_tren > .phai{
+			width: 50%;
+			height: 100%;
+			background: black;
+			float: left;
+		}
+		#div_tren > .phai > .tren {
+			width: 100%;
+			height: 90%;
+			background: purple;
+			text-align: right;
+		}
+		#div_tren > .phai > .duoi {
+			width: 100%;
+			height: 10%;
+			background: blue;
+			text-align: right;
+		}
+		#div_duoi{
+			width: 100%;
+			height: 80%;
+			background: green;
+		}
+		#div_duoi > .trai {
+			width: 30%;
+			height: 100%;
+			background: black;
+			float: left;
+			border-right: 5px solid green;
+		}
+		#div_duoi > .giua {
+			width: 40%;
+			height: 100%;
+			background: red;
+			float: left;
+		}
+		#div_duoi > .phai {
+			width: 29%;
+			height: 100%;
+			background: aqua;
+			float: left;
+		}
+	</style>
+</head>
+<body>
+	<div id="div_tong">
+		<div id="div_tren">
+			<div class="trai">
+				<img src="E:\Workspace\Project\Full bài tập\HTML+CSS\Bai 4.2 - Hoa Canh\images\logo.gif" style="height: 100%;">
+			</div>
+			<div class="phai">
+				<div class="tren">
+					<form>
+						<select>
+							<option>
+								Hội hoa Lan & Cây cảnh TPHCM
+							</option>
+						</select>
+						<button>Go</button>
+					</form>
+				</div>
+				<div class="duoi">
+					<a href="">
+						<img src="E:\Workspace\Project\Full bài tập\HTML+CSS\Bai 4.2 - Hoa Canh\images\n_hoavacc.gif">
+						<img src="E:\Workspace\Project\Full bài tập\HTML+CSS\Bai 4.2 - Hoa Canh\images\n_hopthu.gif">
+						<img src="E:\Workspace\Project\Full bài tập\HTML+CSS\Bai 4.2 - Hoa Canh\images\n_ttuc.gif">
+						<img src="E:\Workspace\Project\Full bài tập\HTML+CSS\Bai 4.2 - Hoa Canh\images\n_hvien.gif">
+					</a>
+				</div>
+			</div>
+		</div>
+		<div id="div_duoi">
+			<div class="trai"></div>
+			<div class="giua"></div>
+			<div class="phai"></div>
+		</div>
+	</div>
+</body>
+</html>
